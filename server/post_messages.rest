@@ -1,0 +1,7 @@
+POST http://localhost:8080/send
+Content-Type: application/json
+
+{
+  "message": "Tomek Rules Thrice!"
+}
+

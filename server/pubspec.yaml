@@ -1,0 +1,23 @@
+name: server
+description: Server
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.4.3
+
+dependencies:
+  common:
+    path: ../common
+  collection: ^1.18.0
+  equatable: ^2.0.5
+  args: ^2.4.0
+  shelf: ^1.4.0
+  shelf_router: ^1.1.0
+  postgres: ^3.2.1
+  uuid: ^4.4.0
+  shelf_web_socket: ^2.0.0
+  web_socket_channel: ^3.0.0
+
+dev_dependencies:
+  lints: ^4.0.0

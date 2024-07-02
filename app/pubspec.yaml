@@ -1,0 +1,28 @@
+name: app
+description: Application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.4.3
+  flutter: '>=3.22.2'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  common:
+    path: ../common
+
+  collection: ^1.18.0
+  equatable: ^2.0.5
+  http: ^1.2.1
+  shared_preferences: ^2.2.3
+  uuid: ^4.4.0
+  flutter_scatter: ^0.2.0
+  country_flags: ^3.0.0
+  web_socket_channel: ^3.0.0
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter

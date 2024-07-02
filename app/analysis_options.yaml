@@ -1,0 +1,13 @@
+# More info: https://dart.dev/guides/language/analysis-options
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "lib/generated/**"
+
+linter:
+  # Rules can be found: https://dart-lang.github.io/linter/lints/
+  rules:
+    avoid_print: true  # Uncomment to disable the `avoid_print` rule
+    prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+    unnecessary_breaks: true
